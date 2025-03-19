@@ -2,7 +2,7 @@
 CinemaTicket is an Android application that allows users to browse available movies, select seats, and book tickets. 
 It integrates Firebase Authentication, Firestore Database, and Firebase Storage to manage user authentication, movie listings, and ticket bookings.
 
-##Features
+## Features
 - User Authentication (Login & Registration via Firebase Authentication).
 - Browse and view movies from Firestore Database.
 - Upload and display movie posters using Firebase Storage.
