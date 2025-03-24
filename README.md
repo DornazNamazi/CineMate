@@ -16,4 +16,4 @@ It integrates Firebase Authentication, Firestore Database, and Firebase Storage 
 - **Firestore Database** - Structured cloud database for storing movies, users, and ticket details.
 - **Firebase Storage** - Storing and retrieving movie images (posters).
 - **Glide** - Image loading and caching for better performance.
-- **Design Patterns:** Singleton, Factory, Composite, Observer, Proxy, Flyweight, Facade.
+- **Design Patterns:** Singleton, Factory, Observer.
