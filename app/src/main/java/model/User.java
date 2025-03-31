@@ -1,4 +1,4 @@
-package com.example.cinemate;
+package model;
 
 
 public abstract class User {

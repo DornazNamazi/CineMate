@@ -1,4 +1,4 @@
-package com.example.cinemate;
+package model;
 
 import java.util.List;
 
