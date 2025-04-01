@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="views.authentication.SignUpPage">
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnBackToLoginSignUp2"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/red"
+        android:text="Back"
+        android:textColor="@color/yellow"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="15dp"
+        />
+
+    <!-- Logo Image -->
+
+
+    <ImageView
+        android:id="@+id/imagelogo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/tvFName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="First Name"
+        android:textColor="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.295"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imagelogo" />
+
+    <EditText
+        android:id="@+id/edFName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="First Name"
+        android:textColor="@color/red"
+        android:backgroundTint="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvFName"
+        />
+
+    <TextView
+        android:id="@+id/tvLName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name"
+        android:textColor="@color/red"
+        app:layout_constraintTop_toBottomOf="@+id/edFName"
+        app:layout_constraintStart_toStartOf="@+id/edFName"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/edLName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Last Name"
+        android:textColor="@color/red"
+        android:backgroundTint="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLName"
+        />
+
+    <!-- Email Field -->
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/edEmail"
+        app:layout_constraintStart_toStartOf="@+id/edEmail" />
+
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email"
+        android:textColor="@color/red"
+        android:backgroundTint="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edLName"
+        android:layout_marginTop="30dp" />
+
+    <!-- Password Field -->
+    <TextView
+        android:id="@+id/tvCreatePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create a password"
+        android:textColor="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/edCreatePassword"
+        app:layout_constraintStart_toStartOf="@+id/edCreatePassword" />
+
+    <EditText
+        android:id="@+id/edCreatePassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Password"
+        android:textColor="@color/red"
+        android:backgroundTint="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edEmail"
+        android:layout_marginTop="30dp" />
+
+    <!-- Confirm Password Field -->
+    <TextView
+        android:id="@+id/tvConfirmPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm password"
+        android:textColor="@color/red"
+        app:layout_constraintBottom_toTopOf="@+id/edConfirmPassword"
+        app:layout_constraintStart_toStartOf="@+id/edConfirmPassword" />
+
+    <EditText
+        android:id="@+id/edConfirmPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Password"
+        android:textColor="@color/red"
+        android:backgroundTint="@color/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edCreatePassword"
+        android:layout_marginTop="30dp" />
+
+    <!-- Sign Up Button -->
+    <Button
+        android:id="@+id/btnSignUp"
+        android:text="SIGN UP"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/yellow"
+        android:backgroundTint="@color/red"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="50dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
