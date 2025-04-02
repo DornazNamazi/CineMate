@@ -13,6 +13,25 @@
         android:theme="@style/Theme.CineMate"
         tools:targetApi="31">
         <activity
+            android:name="views.admin.fragments.BookingsFragment"
+            android:exported="false" />
+        <activity
+            android:name="views.admin.fragments.AccountFragment"
+            android:exported="false" />
+        <activity
+            android:name="views.admin.fragments.CinemaFragment"
+            android:exported="false" />
+        <activity
+            android:name="views.admin.fragments.MovieFragment"
+            android:exported="false" />
+        <activity
+            android:name="views.admin.AdminHomePage"
+            android:exported="false" />
+        <activity
+            android:name="views.customer.CustomerHomePage"
+            android:exported="false" />
+
+        <activity
             android:name="views.authentication.SignUpPage"
             android:exported="false" />
         <activity
@@ -28,10 +47,10 @@
             android:name="views.start.IntroPage1"
             android:exported="false" />
         <activity
-            android:name="views.start.FirstPage"
+            android:name="model.MainActivity"
             android:exported="false" />
         <activity
-            android:name="model.MainActivity"
+            android:name="views.start.FirstPage"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

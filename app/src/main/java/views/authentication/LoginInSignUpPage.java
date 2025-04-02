@@ -1,5 +1,6 @@
 package views.authentication;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -20,7 +21,7 @@ public class LoginInSignUpPage extends AppCompatActivity implements View.OnClick
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_login_in_sign_up_page);
+        setContentView(R.layout.authentication_login_in_sign_up_page);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -40,6 +41,11 @@ public class LoginInSignUpPage extends AppCompatActivity implements View.OnClick
 
     @Override
     public void onClick(View view) {
+        if (view.getId() == R.id.btnLogin) {
+            startActivity(new Intent(this, LoginPage.class));
+        } else if (view.getId() == R.id.btnSignUp) {
+            startActivity(new Intent(this, SignUpPage.class));
+        }
 
     }
 }

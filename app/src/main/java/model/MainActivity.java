@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Enable Edge-to-Edge UI
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_testing_page);
 
         // Apply WindowInsets to adjust padding around system bars
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         // Find the TextView where output will be displayed
         textViewOutput = findViewById(R.id.textViewOutput);
 
-        mAuth.signInWithEmailAndPassword("client2@example.com", "123456")
+        mAuth.signInWithEmailAndPassword("client1@example.com", "123456")
                 .addOnCompleteListener(this, new OnCompleteListener<com.google.firebase.auth.AuthResult>() {
 
                     @Override
