@@ -20,12 +20,12 @@
 
     <ImageView
         android:id="@+id/imgLogo"
-        android:layout_width="350dp"
-        android:layout_height="350dp"
+        android:layout_width="359dp"
+        android:layout_height="347dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="20dp"
         app:srcCompat="@drawable/logo" />
 
     <TextView
