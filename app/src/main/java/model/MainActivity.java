@@ -16,6 +16,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -65,10 +66,15 @@ public class MainActivity extends AppCompatActivity {
         textViewOutput.append("Starting app logic...\n\n");
 
         // Step 1: Create Movie objects using the MovieFactory
+
+        // creating showtimes to testing:
+
+        List<String> showtimes = Arrays.asList("14:00", "16:30", "19:00");
+
         MovieFactory movieFactory = new MovieFactory();
-        Movie movie1 = movieFactory.createMovie("Inception", "Sci-Fi", 148, "A mind-bending thriller by Christopher Nolan.");
-        Movie movie2 = movieFactory.createMovie("Titanic", "Romance", 195, "A tragic love story on the doomed ship.");
-        Movie movie3 = movieFactory.createMovie("Avatar", "Action/Sci-Fi", 162, "A visually stunning film set on the planet Pandora.");
+        Movie movie1 = movieFactory.createMovie("Inception", "Sci-Fi", 148, "A mind-bending thriller by Christopher Nolan.", showtimes);
+        Movie movie2 = movieFactory.createMovie("Titanic", "Romance", 195, "A tragic love story on the doomed ship.", showtimes);
+        Movie movie3 = movieFactory.createMovie("Avatar", "Action/Sci-Fi", 162, "A visually stunning film set on the planet Pandora.", showtimes);
         textViewOutput.append("Movies created successfully.\n");
 
         // Step 2: Create Cinema objects
