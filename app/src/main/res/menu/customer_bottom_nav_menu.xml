@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/nav_nearby" android:title="Cinemas" android:icon="@drawable/question"/>
-    <item android:id="@+id/nav_mybookings" android:title="My Bookings" android:icon="@drawable/question"/>
-    <item android:id="@+id/nav_account" android:title="Account" android:icon="@drawable/question"/>
+    <item android:id="@+id/nav_nearby" android:title="Cinemas" android:icon="@drawable/cinema"/>
+    <item android:id="@+id/nav_mybookings" android:title="My Bookings" android:icon="@drawable/my_bookings"/>
+    <item android:id="@+id/nav_account" android:title="Account" android:icon="@drawable/account"/>
 </menu>

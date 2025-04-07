@@ -3,20 +3,20 @@
     <item
         android:id="@+id/nav_movies"
         android:title="Movies"
-        android:icon="@drawable/question" />
+        android:icon="@drawable/movies" />
 
     <item
         android:id="@+id/nav_cinemas"
         android:title="Cinemas"
-        android:icon="@drawable/question" />
+        android:icon="@drawable/cinema" />
 
     <item
         android:id="@+id/nav_bookings"
         android:title="Bookings"
-        android:icon="@drawable/question" />
+        android:icon="@drawable/bookings" />
 
     <item
         android:id="@+id/nav_account"
         android:title="Account"
-        android:icon="@drawable/question" />
+        android:icon="@drawable/account" />
 </menu>

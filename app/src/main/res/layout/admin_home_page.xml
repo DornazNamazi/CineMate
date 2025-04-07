@@ -7,21 +7,46 @@
     android:layout_height="match_parent"
     tools:context="views.admin.AdminHomePage">
 
-    <FrameLayout
-        android:id="@+id/admin_fragment_container"
+    <TextView
+        android:id="@+id/tvMoviesTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movies"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewMovies"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@+id/bottomNavAdmin"
+        android:layout_margin="8dp"
+        app:layout_constraintTop_toBottomOf="@id/tvMoviesTitle"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavAdmin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center"
-        android:textSize="30dp"
-        android:text="HOME PAGE ADMIN"/>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnAddMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Add Movie"
+        android:src="@android:drawable/ic_input_add"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavAdmin"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnDeleteMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:contentDescription="Delete Movie"
+        android:src="@android:drawable/ic_delete"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavAdmin"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavAdmin"
@@ -30,6 +55,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:menu="@menu/admin_bottom_nav_menu" />
+        app:menu="@menu/admin_bottom_nav_menu"
+        app:itemIconSize="60dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
