@@ -101,6 +101,8 @@ public class MainActivity extends AppCompatActivity {
         booking1.notifyObservers(); // Notify observers (customer) about the booking cancellation
         textViewOutput.append("Customer canceled the booking and was notified.\n\n");
 
+
+
         // Step 8: Generate the output with the movie and cinema information
         StringBuilder output = new StringBuilder("Final summary:\n\n");
 

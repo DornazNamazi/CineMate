@@ -18,28 +18,34 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="16dp"
         android:fontFamily="@font/mogra"
         android:shadowColor="@color/yellow"
         android:shadowRadius="4"
-        android:text="Some text"
+        android:text="your one-stop
+        \ncinema app to
+        \nbook tickets,
+        \nexplore showtimes,
+        \nand get exclusive offers!
+        \nFast, Easy, Always
+        \nup-to-date! "
         android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="50dp" />
-
+        tools:layout_editor_absoluteY="130dp" />
 
     <ImageView
         android:id="@+id/intro2"
-        android:layout_width="220dp"
-        android:layout_height="220dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="164dp"
+        android:layout_width="295dp"
+        android:layout_height="259dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="360dp"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

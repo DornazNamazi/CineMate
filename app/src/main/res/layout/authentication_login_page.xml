@@ -87,8 +87,8 @@
 
     <EditText
         android:id="@+id/edEmail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="50dp"
         android:backgroundTint="@color/red"
@@ -96,8 +96,13 @@
         android:inputType="textEmailAddress"
         android:hint="Enter email"
         android:textColor="@color/red"
+        android:paddingVertical="12dp"
         app:layout_constraintStart_toEndOf="@+id/imgEmail"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+
+
 
     <TextView
         android:id="@+id/tvPassword"
@@ -121,16 +126,19 @@
 
     <EditText
         android:id="@+id/edPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:backgroundTint="@color/red"
-        android:ems="10"
-        android:inputType="textPassword"
-        android:hint="Enter password"
-        android:textColor="@color/red"
-        app:layout_constraintStart_toStartOf="@+id/edEmail"
-        app:layout_constraintTop_toBottomOf="@+id/edEmail" />
+        android:layout_width="0dp"
+    android:layout_height="48dp"
+    android:layout_marginTop="30dp"
+    android:backgroundTint="@color/red"
+    android:ems="10"
+    android:inputType="textPassword"
+    android:hint="Enter password"
+    android:textColor="@color/red"
+    android:paddingVertical="12dp"
+    app:layout_constraintStart_toStartOf="@+id/edEmail"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/edEmail" />
+
 
     <TextView
         android:id="@+id/tvForgotPassword"

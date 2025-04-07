@@ -38,13 +38,13 @@
 
     <ImageView
         android:id="@+id/imagelogo"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="191dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo"
-        android:layout_marginTop="20dp" />
+        app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/tvFName"
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="First Name"
+        android:hint="First Name"
         android:textColor="@color/red"
         android:backgroundTint="@color/red"
         app:layout_constraintEnd_toEndOf="parent"
@@ -89,7 +89,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Last Name"
+        android:hint="Last Name"
         android:textColor="@color/red"
         android:backgroundTint="@color/red"
         app:layout_constraintEnd_toEndOf="parent"
@@ -113,7 +113,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textEmailAddress"
-        android:text="Email"
+        android:hint="Email"
         android:textColor="@color/red"
         android:backgroundTint="@color/red"
         app:layout_constraintEnd_toEndOf="parent"
@@ -137,7 +137,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="Password"
+        android:hint="Password"
         android:textColor="@color/red"
         android:backgroundTint="@color/red"
         app:layout_constraintEnd_toEndOf="parent"
@@ -161,7 +161,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPassword"
-        android:text="Password"
+        android:hint="Password"
         android:textColor="@color/red"
         android:backgroundTint="@color/red"
         app:layout_constraintEnd_toEndOf="parent"

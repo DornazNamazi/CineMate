@@ -18,28 +18,32 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="16dp"
         android:fontFamily="@font/mogra"
         android:shadowColor="@color/yellow"
         android:shadowRadius="4"
-        android:text="Some text"
+        android:text="Lights,
+        \nCamera,
+        \nAction! 🎬
+        \nWelcome to Your
+        \nMovie Haven!"
         android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="50dp" />
-
+        tools:layout_editor_absoluteY="128dp" />
 
     <ImageView
         android:id="@+id/intro1"
-        android:layout_width="220dp"
-        android:layout_height="220dp"
+        android:layout_width="278dp"
+        android:layout_height="281dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="164dp"
+        android:layout_marginTop="296dp"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
