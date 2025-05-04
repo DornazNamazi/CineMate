@@ -1,0 +1,5 @@
+com.example.cinemate.test.app-core-1.6.1-0 C:\Users\dorna\.gradle\caches\transforms-4\fcbe0bda30a36c246b03bda84d727277\transformed\core-1.6.1\res
+com.example.cinemate.test.app-androidTest-1 C:\Users\dorna\source\repos\CineMate\CineMate\app\build\generated\res\resValues\androidTest\debug
+com.example.cinemate.test.app-mergeDebugAndroidTestResources-2 C:\Users\dorna\source\repos\CineMate\CineMate\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.cinemate.test.app-mergeDebugAndroidTestResources-3 C:\Users\dorna\source\repos\CineMate\CineMate\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.cinemate.test.app-debugAndroidTest-4 C:\Users\dorna\source\repos\CineMate\CineMate\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

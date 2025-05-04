@@ -1,0 +1,3 @@
+com.example.cinemate.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

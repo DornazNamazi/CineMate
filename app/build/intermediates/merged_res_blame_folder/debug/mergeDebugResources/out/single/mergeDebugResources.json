@@ -1,0 +1,174 @@
+[
+    {
+        "merged": "com.example.cinemate.app-debug-40:/drawable_intro1.png.flat",
+        "source": "com.example.cinemate.app-main-42:/drawable/intro1.png"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.cinemate.app-main-42:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/layout_customer_fragment_bookings.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/layout/customer_fragment_bookings.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/menu_admin_bottom_nav_menu.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/menu/admin_bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/layout_customer_fragment_account.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/layout/customer_fragment_account.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/layout_start_intro_page1.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/layout/start_intro_page1.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/menu_customer_bottom_nav_menu.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/menu/customer_bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.cinemate.app-main-42:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/layout_admin_fragment_bookings.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/layout/admin_fragment_bookings.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.cinemate.app-main-42:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/layout_admin_fragment_cinema.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/layout/admin_fragment_cinema.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/layout_customer_fragment_nearby_cinemas.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/layout/customer_fragment_nearby_cinemas.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/drawable_email.png.flat",
+        "source": "com.example.cinemate.app-main-42:/drawable/email.png"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/drawable_logo.png.flat",
+        "source": "com.example.cinemate.app-main-42:/drawable/logo.png"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.cinemate.app-main-42:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/drawable_password.png.flat",
+        "source": "com.example.cinemate.app-main-42:/drawable/password.png"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/layout_admin_fragment_account.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/layout/admin_fragment_account.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/layout_customer_home_page.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/layout/customer_home_page.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/layout_admin_home_page.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/layout/admin_home_page.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/font_mogra.ttf.flat",
+        "source": "com.example.cinemate.app-main-42:/font/mogra.ttf"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/drawable_intro2.png.flat",
+        "source": "com.example.cinemate.app-main-42:/drawable/intro2.png"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/drawable_question.png.flat",
+        "source": "com.example.cinemate.app-main-42:/drawable/question.png"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/layout_authentication_login_in_sign_up_page.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/layout/authentication_login_in_sign_up_page.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.cinemate.app-main-42:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.cinemate.app-main-42:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/layout_start_intro_page2.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/layout/start_intro_page2.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/layout_admin_fragment_movie.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/layout/admin_fragment_movie.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/drawable_stars.png.flat",
+        "source": "com.example.cinemate.app-main-42:/drawable/stars.png"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/layout_authentication_sign_up_page.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/layout/authentication_sign_up_page.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.cinemate.app-main-42:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.cinemate.app-main-42:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.cinemate.app-main-42:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/drawable_background.png.flat",
+        "source": "com.example.cinemate.app-main-42:/drawable/background.png"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/layout_authentication_login_page.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/layout/authentication_login_page.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/layout_start_first_page.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/layout/start_first_page.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/xml_backup_rules.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.cinemate.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.cinemate.app-debug-40:/layout_activity_testing_page.xml.flat",
+        "source": "com.example.cinemate.app-main-42:/layout/activity_testing_page.xml"
+    }
+]

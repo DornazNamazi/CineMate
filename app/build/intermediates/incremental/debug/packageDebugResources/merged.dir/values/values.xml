@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="red">#d71d1d</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#fac63a</color>
+    <string name="app_name">CineMate</string>
+    <string name="gcm_defaultSenderId" translatable="false">1093519284338</string>
+    <string name="google_api_key" translatable="false">AIzaSyD4j429w8GdS1U6gD1i961DzV8OGDZtecg</string>
+    <string name="google_app_id" translatable="false">1:1093519284338:android:1499a4dce7e4a49b6c4aeb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD4j429w8GdS1U6gD1i961DzV8OGDZtecg</string>
+    <string name="google_storage_bucket" translatable="false">cinemate-d9a8c.firebasestorage.app</string>
+    <string name="project_id" translatable="false">cinemate-d9a8c</string>
+    <style name="Base.Theme.CineMate" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.CineMate" parent="Base.Theme.CineMate"/>
+</resources>
