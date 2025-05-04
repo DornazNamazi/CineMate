@@ -93,19 +93,29 @@ public class MainActivity extends AppCompatActivity {
         Customer customer = new Customer("2", "John Doe", "johndoe@example.com", "password123");
 
         // Step 5: Create Booking object and assign an observer (customer)
-        Booking booking1 = new Booking(customer, movie1, cinema1);
-        booking1.addObserver(customer); // Customer subscribes to booking updates
-        textViewOutput.append("Customer created and registered as observer.\n");
+
+        BookingFacade bookingFacade = new BookingFacade();
+
+        Booking booking1 = bookingFacade.bookMovie(customer, movie1, cinema1);
+        textViewOutput.append("Customer booked a movie using facade and was notified.\n");
+
+        bookingFacade.cancelBooking(booking1);
+        textViewOutput.append("Customer canceled the booking using facade and was notified.\n\n");
+
+
+//        Booking booking1 = new Booking(customer, movie1, cinema1);
+//        booking1.addObserver(customer); // Customer subscribes to booking updates
+//        textViewOutput.append("Customer created and registered as observer.\n");
 
         // Step 6: Customer books a movie
-        customer.bookMovie(movie1, cinema1);
-        booking1.notifyObservers(); // Notify observers (customer) about the booking update
-        textViewOutput.append("Customer booked a movie and was notified.\n");
-
-        // Step 7: Customer cancels the booking
-        customer.cancelBooking(booking1);
-        booking1.notifyObservers(); // Notify observers (customer) about the booking cancellation
-        textViewOutput.append("Customer canceled the booking and was notified.\n\n");
+//        customer.bookMovie(movie1, cinema1);
+//        booking1.notifyObservers(); // Notify observers (customer) about the booking update
+//        textViewOutput.append("Customer booked a movie and was notified.\n");
+//
+//        // Step 7: Customer cancels the booking
+//        customer.cancelBooking(booking1);
+//        booking1.notifyObservers(); // Notify observers (customer) about the booking cancellation
+//        textViewOutput.append("Customer canceled the booking and was notified.\n\n");
 
 
 

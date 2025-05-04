@@ -51,4 +51,9 @@ public class Booking {
     public String getStatus() {
         return "Booked";
     }
+
+    public List<BookingObserver> getObservers() {
+        return observers;
+    }
+
 }
