@@ -26,8 +26,20 @@ public class TicketBuilder {
         return this;
     }
 
-    public TicketBuilder build() {
-        return new TicketBuilder(this);
+    public Ticket buildTicket() {
+        return new Ticket(this);
     }
+
+
+    public TicketBuilder(TicketBuilder ticketBuilder) {
+        this.customer = ticketBuilder.customer;
+        this.movie = ticketBuilder.movie;
+        this.cinema = ticketBuilder.cinema;
+        this.duration = ticketBuilder.duration;
+    }
+
+    // public TicketBuilder build() {
+    //     return new TicketBuilder(this);
+    // }
 
 }
